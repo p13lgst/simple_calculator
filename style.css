@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: #080;
+  font-family: 'Bungee', monospace;
+}
+
+#entry {
+  background-color: #AAA;
+  color: black;
+  padding-right: 5px;
+}
+
+button {
+ margin: 20px;
+}
+
+#entry-text {
+  margin: 18px;
+  font-size: 40px;
+}
+
+.number, .operator, #dot, #equal {
+  background-color: #008;
+  padding: 12px;
+  font-size: 40px;
+  color: black;
+  margin: 0;
+  border: none;
+}
+
+.number:hover, .operator:hover, #dot:hover, #equal:hover {
+  background-color: #FFF;
+}
+
+.number:focus, .operator:focus, #dot:focus, #equal:focus {
+  border: none !important;
+  outline: none;
+}

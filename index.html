@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="container bg-black text-center">
+      <h1 id="title">Simple Calculator</h1>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2" id="entry">
+          <div class="row">
+            <div class="col-md-2">
+              <button id="clear" class="btn btn-lg btn-primary">CLEAR</button>
+            </div>
+            <div id="entry-text" class="text-right col-md-9 col-md-offset-1">0</div>
+          </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row">
+            <button class="col-md-3 number">7</button>
+            <button class="col-md-3 number">8</button>
+            <button class="col-md-3 number">9</button>
+            <button class="col-md-3 operator">&div;</button>
+          </div>
+          <div class="row">
+            <button class="col-md-3 number">4</button>
+            <button class="col-md-3 number">5</button>
+            <button class="col-md-3 number">6</button>
+            <button class="col-md-3 operator">&times;</button>
+          </div>
+          <div class="row">
+            <button class="col-md-3 number">1</button>
+            <button class="col-md-3 number">2</button>
+            <button class="col-md-3 number">3</button>
+            <button class="col-md-3 operator">&minus;</button>
+          </div>
+          <div class="row">
+            <button class="col-md-3 number">0</button>
+            <button id="dot" class="col-md-3">&period;</button>
+            <button id="equal" class="col-md-3">&equals;</button>
+            <button class="col-md-3 operator">&plus;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
